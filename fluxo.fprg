@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tarde"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-26 03:58:01 "/>
+        <attribute name="created" value="VGFyZGU7REVTS1RPUC1OUTFLMVBJOzIwMjItMDQtMjU7IjAyOjAzOjQ4ICI7Mjc1Mw=="/>
+        <attribute name="edited" value="VGFyZGU7REVTS1RPUC1OUTFLMVBJOzIwMjItMDQtMjU7IjAzOjQ0OjM5ICI7MTsyODY3"/>
+        <attribute name="edited" value="bWFydmk7TUFSVklOLVBDOzIwMjItMDQtMjY7IjAzOjU4OjAxICI7MTsyNDk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="J, j" type="Integer" array="False" size=""/>
+            <assign variable="J" expression="0"/>
+            <while expression="J = 0">
+                <output expression="&quot;Login de entrada&quot;" newline="True"/>
+                <input variable="login"/>
+                <output expression="&quot;Senha&quot;" newline="True"/>
+                <input variable="senha"/>
+                <if expression="login = Marcelo123&#13;&#10;senha = GGHARDWARE123@">
+                    <then>
+                        <assign variable="J" expression="1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;Tela de Bem Vindo&quot;" newline="True"/>
+            <assign variable="j" expression="-1"/>
+            <while expression="j &lt;&gt; 0">
+                <output expression="&quot;Menu Principal &quot;" newline="True"/>
+                <output expression="&quot;[1]Produtos [2]Clientes [3]Fornecedores [4]Parceiros [5]Ajuda [6]Sobre [7]Finalizar o programa&quot;" newline="True"/>
+                <input variable="escolha"/>
+                <if expression="escolha = 1">
+                    <then>
+                        <output expression="&quot;[1]Cadastrar um novo produto [2]Listar todos os produtos [3]Categorias de produtos [4]Ecluir um produto cadastrado[5]produtos vendidos[6]Produtos anunciados[7]Atualizar produtos[8]Voltar ao menu principal[9]Encerrar o programa&quot;" newline="True"/>
+                        <input variable="escolha2"/>
+                        <if expression="escolha2 = 1">
+                            <then>
+                                <output expression="&quot;[1]Cadastrar Hardware[2]Cadastrar periferico&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="escolha2 = 2">
+                                    <then>
+                                        <output expression="&quot;Lista de Hardwares e Perif&#233;ricos&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="escolha2 = 3">
+                                            <then>
+                                                <output expression="&quot;Escolha: [1]Hardware[2]Perif&#233;ricos[3]Voltar ao menu&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <if expression="escolha2 = 4">
+                                                    <then>
+                                                        <output expression="&quot;Digite qual deseja excluir: [1]Hardware[2]Perif&#233;rico&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="escolha2 = 5">
+                                                            <then>
+                                                                <output expression="" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="escolha2 = 6">
+                                                                    <then>
+                                                                        <output expression="" newline="True"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <if expression="escolha2 = 7">
+                                                                            <then>
+                                                                                <output expression="&quot;Deseja atualizar: [1]Hardware [2]Perif&#233;rico [3]Voltar&quot;" newline="True"/>
+                                                                            </then>
+                                                                            <else>
+                                                                                <if expression="escolha2 = 8">
+                                                                                    <then>
+                                                                                        <output expression="&quot;Volta ao menu principal&quot;" newline="True"/>
+                                                                                    </then>
+                                                                                    <else/>
+                                                                                </if>
+                                                                            </else>
+                                                                        </if>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="escolha = 2">
+                            <then>
+                                <output expression="&quot;[1]Cadastrar novo cliente [2]Listar todos os clientes [3]Pesquisar cliente [4]Atualizar dados cliente [5]Excluir Cliente [6]Adicionar uma nova compra [7]Historico de compras [8]Adicionar uma nova venda [9]Historico de vendas[10]Voltar ao menu principal[11]Encerrar programa &quot;" newline="True"/>
+                                <input variable="escolha3"/>
+                                <if expression="escolha3 = 1">
+                                    <then>
+                                        <output expression="&quot;Cadastro de novos clientes - Dados Cliente &quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="escolha3 = 2">
+                                            <then>
+                                                <output expression="&quot;Lista Clientes Cadastrados&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <if expression="escolha3 = 3">
+                                                    <then>
+                                                        <output expression="&quot;Pesquisa de Clientes Cadastrados&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="escolha3 = 4">
+                                                            <then>
+                                                                <output expression="&quot;Atualizar dados de clientes cadastrados atraves de seu codigo&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="escolha3 = 5">
+                                                                    <then>
+                                                                        <output expression="&quot;Excluir dados de cliente cadastrado atraves de seu codigo&quot;" newline="True"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <if expression="escolha3 = 6">
+                                                                            <then>
+                                                                                <output expression="&quot;Cadastrar nova compra - Categoria do preduto - Nome - Valor - Vendedor - Data/ [1]Para adiconar outra compra [0]Voltar menu principal &quot;" newline="True"/>
+                                                                            </then>
+                                                                            <else>
+                                                                                <if expression="escolha3 = 7">
+                                                                                    <then>
+                                                                                        <output expression="&quot;Lista de todas as compras&quot;" newline="True"/>
+                                                                                    </then>
+                                                                                    <else>
+                                                                                        <if expression="escolha3 = 8">
+                                                                                            <then>
+                                                                                                <output expression="&quot;Cadastrar nova Venda - Categoria do preduto - Nome - Valor - Vendedor - Data/ [1]Para adiconar outra venda [0]Voltar menu principal&quot;" newline="True"/>
+                                                                                            </then>
+                                                                                            <else>
+                                                                                                <if expression="escolha3 = 9">
+                                                                                                    <then>
+                                                                                                        <output expression="&quot;Lista de todas as vendas&quot;" newline="True"/>
+                                                                                                    </then>
+                                                                                                    <else/>
+                                                                                                </if>
+                                                                                            </else>
+                                                                                        </if>
+                                                                                    </else>
+                                                                                </if>
+                                                                            </else>
+                                                                        </if>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </then>
+                            <else>
+                                <if expression="escolha = 3">
+                                    <then>
+                                        <output expression="&quot;[1]Cadastrar novo fornecedor [2]Listar fornecedores [3]Pesquisar fornecedor [4]Atualizar fornecedor [5]Excluir Fornecedor [6]Voltar ao menu principal[7]Encerrar programa&quot;" newline="True"/>
+                                        <input variable="escolha4"/>
+                                        <if expression="escolha4 = 1">
+                                            <then>
+                                                <output expression="&quot;Cadastrar novos forncedores - Dados do Fornecedor - Categoria de Produto (Hardware ou Periferico)/ [1]Para adiconar outro fornecedor [0]Voltar menu principal&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <if expression="escolha4 = 2">
+                                                    <then>
+                                                        <output expression="&quot;Lista de fornecedores cadastrados&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="escolha4 = 3">
+                                                            <then>
+                                                                <output expression="&quot;Pesquisar fornecedor cadastrado - Dados Fornecedor&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="escolha4 = 4">
+                                                                    <then>
+                                                                        <output expression="&quot;Atualizar dados de fornecedor cadastrado pelo seu codigo&quot;" newline="True"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <if expression="escolha4 = 5">
+                                                                            <then>
+                                                                                <output expression="&quot;Excluir fornecedor cadastrado pelo seu codigo/ [1]Excluir outro fornecedor [0]Voltar menu&quot;" newline="True"/>
+                                                                            </then>
+                                                                            <else/>
+                                                                        </if>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </then>
+                                    <else>
+                                        <if expression="escolha = 4">
+                                            <then>
+                                                <output expression="&quot;[1]Cadastrar parceiros [2]Listar todos os parceiros [3]Atualizar parceiros[4]Excluir parceiros [5]Produtos anunciados [6]Voltar ao menu principal [7]Encerrar &quot;" newline="True"/>
+                                                <input variable="escolha5"/>
+                                                <if expression="escolha5 = 1">
+                                                    <then>
+                                                        <output expression="&quot;Cadastrar novos Parceiros - Dados parceiro / 1]Para adiconar outro Parceiro [0]Voltar menu principal&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="escolha5 = 2">
+                                                            <then>
+                                                                <output expression="&quot;Lista de todos os parceiros&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="escolha5 = 3">
+                                                                    <then>
+                                                                        <output expression="&quot;Atualiza dados de parceiros cadastrados&quot;" newline="True"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <if expression="escolha5 = 4">
+                                                                            <then>
+                                                                                <output expression="&quot;Exclui parceiros cadastrados/ 1]Excluir outro parceiro [0]Voltar menu&quot;" newline="True"/>
+                                                                            </then>
+                                                                            <else>
+                                                                                <if expression="escolha5 = 5">
+                                                                                    <then/>
+                                                                                    <else>
+                                                                                        <if expression="escolha5 = 6">
+                                                                                            <then>
+                                                                                                <output expression="&quot;Retorna para o menu principal&quot;" newline="True"/>
+                                                                                            </then>
+                                                                                            <else/>
+                                                                                        </if>
+                                                                                    </else>
+                                                                                </if>
+                                                                            </else>
+                                                                        </if>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </then>
+                                            <else>
+                                                <if expression="escolha = 5">
+                                                    <then>
+                                                        <output expression="&quot;Duvidas frequentes - Entrar em contado com os desenvolvedores em caso de mais duvidas&quot;" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="escolha = 6">
+                                                            <then>
+                                                                <output expression="&quot;Sobre o sistema&quot;" newline="True"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="escolha = 7">
+                                                                    <then/>
+                                                                    <else/>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
